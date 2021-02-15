@@ -10,11 +10,11 @@
     }
   ],
   "require": {
-    "php": "^7.1.3",
+    "php": ">=7.0",
     "laravel/framework": ">=5.4.0",
     "guzzlehttp/guzzle": "~6.0",
-    "tymon/jwt-auth": "0.5.* || 1.0.*@beta",
-    "ronasit/laravel-helpers": ">=1.3"
+    "tymon/jwt-auth": "dev-develop",
+    "evikulov/laravel-helpers": "master"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
@@ -29,5 +29,5 @@
       "src/helpers.php"
     ]
   },
-  "minimum-stability": "beta"
+  "minimum-stability": "dev"
 }
